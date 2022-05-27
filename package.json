@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/daniel-navas/cauldron-plate-omega/issues"
   },
-  "homepage": "https://github.com/daniel-navas/cauldron-plate-omega#readme"
+  "homepage": "https://github.com/daniel-navas/cauldron-plate-omega#readme",
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  }
 }
