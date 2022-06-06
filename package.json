@@ -2,8 +2,9 @@
   "name": "cauldron-plate-omega",
   "version": "1.0.0",
   "description": "description",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
+    "start": "node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/daniel-navas/cauldron-plate-omega#readme",
   "devDependencies": {
+    "@types/node": "^17.0.40",
     "typescript": "^4.7.2"
   }
 }
