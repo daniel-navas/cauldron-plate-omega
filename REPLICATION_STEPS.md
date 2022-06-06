@@ -7,4 +7,6 @@ In case you want to replicate the steps to do it yourself instead of copying thi
 ## Node
 - Run `npm init`
 ## Typescript
-- Follow instructions in [typescriptlang.org/download](https://www.typescriptlang.org/download) to install Typescript in the project
+- Follow instructions in [typescriptlang.org/download](https://www.typescriptlang.org/download) to install Typescript in the project. Or just run `npm install typescript --save-dev`
+- Run `tsc --init` to initialize the project with TypeScript and create the **tsconfig.json** file
+- Use the following links to edit the **tsconfig.json** file according to the project needs. [What is a tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html), [TSConfig Reference](https://www.typescriptlang.org/tsconfig)
