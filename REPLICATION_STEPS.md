@@ -1,9 +1,14 @@
 # Replication Steps
-In case you want to replicate the steps to do it yourself instead of copying this
-## Requirements
-- [Node.js](https://nodejs.org/) installed
+In case you want to replicate the steps to do it yourself
+### Requirements
+- [Visual Studio Code](https://code.visualstudio.com)
+- [Node.js](https://nodejs.org)
+- [Git](https://git-scm.com)
+## Steps
+- Create the project folder
 ## Git
-- Use [toptal.com/developers/gitignore](https://www.toptal.com/developers/gitignore) to create **.gitignore** file
+- Run `git init`
+- Create the **.gitignore** file in the root and generate its content using [toptal.com/developers/gitignore](https://www.toptal.com/developers/gitignore)
 ## Node
 - Run `npm init`
 ## Typescript
@@ -12,8 +17,8 @@ In case you want to replicate the steps to do it yourself instead of copying thi
 - Use the following links to edit the **tsconfig.json** file according to the project needs. [What is a tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html), [TSConfig Reference](https://www.typescriptlang.org/tsconfig)
 - Run `npm i -D @types/node` to install types for node
 - In the **tsconfig.json** file uncomment the `outDir` property and set it as `"outDir": "dist"`
-- Create a **src** folder in the project root folder
-- Create an **index.ts** file inside the **src** folder with the content `console.log('Hello World!')`
+- Create the **src** folder in the root
+- Inside the **src** folder create an **index.ts** file with the content `console.log('Hello World!')`
 - In the **package.json** file:
   - Set the `main` property to `"main": "dist/index.js"`
   - Inside the `scripts` property:
